@@ -1,0 +1,60 @@
+body {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  nav {
+    width: 20%;
+    
+  }
+  
+  #main-doc {
+    width: 80%;
+    border-left: 5px solid whitesmoke;
+    padding-left: 10px
+  }
+  
+  ul {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  a {
+    height: 50px;
+    width: 100%;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    border-bottom: 2px solid whitesmoke;
+    text-align: left;
+    padding: auto;
+  }
+  
+  code {
+    background-color: whitesmoke;
+    width: 60px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 40px 0
+  }
+  
+  @media (max-width: 1199px) {
+    nav {
+      width: 40%;
+    }
+    
+    #main-doc {
+      width: 60%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    nav {
+      width: 100%;
+    }
+    
+    #main-doc {
+      width: 100%;
+    }
+  }
+  
